@@ -1,0 +1,15 @@
+server:
+  port: 7901
+spring:
+  application:
+    # 应用名称
+    name: provider
+
+# eureka 配置
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka
+logging:
+  level:
+    root: INFO
