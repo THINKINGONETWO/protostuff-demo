@@ -17,7 +17,7 @@ public class TestController {
     @Autowired
     private ProviderClient providerClient;
 
-    @RequestMapping(value = "/getUserInfo",method = RequestMethod.GET,produces = "application/json")
+    @RequestMapping(value = "/getUserInfo",produces = "application/json")
     public User getUserInfo() {
         User user = new User();
         user.setUsername("xiaoming");
