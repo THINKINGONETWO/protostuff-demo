@@ -33,18 +33,4 @@ public class UserController implements ProviderApi {
 
         return user;
     }
-
-    @RequestMapping(value = "/getUserInfoNoProto")
-    public User getUserInfoNoProto() {
-
-        User user = new User();
-        user.setAge(100);
-        user.setAddress("Beijing");
-        user.setPassword("654321");
-        user.setUsername("xiaoming");
-        logger.info("user age : "+user.getAge());
-
-        return user;
-    }
-
 }

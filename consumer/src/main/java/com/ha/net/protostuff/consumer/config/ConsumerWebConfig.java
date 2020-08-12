@@ -8,6 +8,9 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 import java.util.List;
+/**
+ * @author jiangwentao
+ */
 @Configuration
 @EnableWebMvc
 public class ConsumerWebConfig extends WebMvcConfigurerAdapter {
